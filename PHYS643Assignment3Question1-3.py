@@ -54,9 +54,9 @@ ax.plot(radius, sigma, 'k-', label = 'Initial Surface Density')
 
 plt, = ax.plot(radius, sigma, 'ro', label = 'Surface Density')
 
-ax.set_title('Surface density plotted against radius ratio, animated over time')
+ax.set_title('Surface density ratio plotted against radius ratio, animated over time')
 ax.set_xlabel('Radius ratio, x = r/R_0')
-ax.set_ylabel('Surface Density (mass/area)')
+ax.set_ylabel('Surface Density ratio (1)')
 ax.legend()
 
 fig.canvas.draw()
